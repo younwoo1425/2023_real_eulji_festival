@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="상세운영지도.css" />
+    <script src="./menu.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <title>상세운영지도</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="window">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="home.html">홈</a>
+          <a href="map1.html">상세 운영 지도</a>
+          <a href="을랑모이스토어.html">이벤트</a>
+          <div class="menulogo" style="margin-top: 58px">
+            Made By Code Maker
+          </div>
+          <img class="menueulji" src="./을지대로고흰.png" />
+        </div>
+
+        <div class="header">
+          <img
+            class="을지대로고흰"
+            src="을지대로고흰.png"
+            onclick="location.href='home.html'"
+          />
+          <div class="제목">상세 운영 지도</div>
+          <img class="메뉴버튼" src="메뉴버튼.png" onclick="openNav()" />
+        </div>
+        <div class="야식당페이지">
+          <div class="카테고리">
+            <div class="야식당" onclick="location.href='map1.html'">야식당</div>
+            <div class="푸드트럭" onclick="location.href='map2.html'">
+              푸드트럭 | 포토존 | 취식존
+            </div>
+            <div class="지역부스" onclick="location.href='map3.html'">
+              지역부스
+            </div>
+            <div class="학생부스" onclick="location.href='map4.html'">
+              학생부스
+            </div>
+            <div class="본부" id="선택" onclick="location.href='map5.html'">
+              본부 | 학교부스
+            </div>
+            <div class="플리마켓" onclick="location.href='map6.html'">
+              플리마켓
+            </div>
+          </div>
+          <img class="플리지도" src="플리지도.png" />
+          <img class="플리리스트" src="플리리스트.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,408 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 390px;
+  height: 1561px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.window2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 390px;
+  height: 844px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+* {
+  font-family: Pretendard, "Noto Sans KR", sans-serif;
+}
+
+
+
+
+.website-counter {
+
+  color: black;
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  margin-bottom:15px;
+}
+
+.img1 {
+    width: 390px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.logo {
+    color: #555;
+    font-family: Pretendard;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 88px;
+}
+
+.asdf {
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background: #ffa6a6;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* .을지대로고흰 {
+  left: 15px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.을랑모이 {
+  width: 71px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top:60px;
+}
+
+.메뉴버튼 {
+  width: 28px;
+  height: 28px;
+  bottom: 20px;
+  right: 15px;
+  position: absolute;
+} */
+
+.hometext {
+  font-family: Pretendard;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.box {
+  width: 100%;
+  height: 351px;
+  background: #ffa6a6;
+  position: relative;
+}
+
+.box-inner {
+  width: 332px;
+  height: 235px;
+  border-radius: 20px;
+  background: #FFF;
+  top:79px;
+  position:absolute;
+  left:29px;
+}
+
+.box-inner2 {
+  width: 332px;
+  height: 235px;
+  border-radius: 20px;
+  top:35px;
+  position:relative;
+  left:29px;
+}
+
+.상세운영지도 {
+  width:166px;
+  height:30px;
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.이벤트 {
+  width:89px;
+  height:30px;
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.box2 {
+  width:100%;
+  height:490px;
+  background: #ffffff;
+  position: relative;
+}
+
+/* -------------------------------------------------- 메뉴 */
+
+.menulogo {
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left:auto;
+  right:24px;
+  top: 235px;
+  position:absolute;
+}
+
+.menueulji {
+  left: 21px;
+  bottom: 10% ;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+
+  /* The side navigation menu */
+.sidenav {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+right: 0;
+background: linear-gradient(89deg, rgba(255, 166, 166, 0.00) 0%, rgba(255, 166, 166, 0.50) 0%, #FFA6A6 0%); /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+padding: 8px 8px 0px 32px;
+text-decoration: none;
+font-family: Pretendard;
+font-size: 20px;
+color: #FFF;
+display: block;
+transition: 0.3s;
+margin-top:25px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+transition: margin-left .5s;
+margin-top:32px;
+padding: 20px;
+left:32px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+/* -------------------------------------------------- 메뉴 */
+
+
+
+
+/* -------------------------------------------------- 슬라이드 */
+
+.전체 div {
+  width: 330px;
+  height: 440px;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:61px;
+  border-radius: 30px;
+}
+
+.slide {
+  /* layout */
+  display: flex;
+  flex-wrap: nowrap;
+  /* 컨테이너의 내용물이 컨테이너 크기(width, height)를 넘어설 때 보이지 않도록 하기 위해 hidden을 준다. */
+  overflow: hidden;
+
+  /* position */
+  /* slide_button의 position absolute가 컨테이너 안쪽에서 top, left, right offset이 적용될 수 있도록 relative를 준다. (기본값이 static인데, static인 경우 그 상위 컨테이너로 나가면서 현재 코드에선 html을 기준으로 offset을 적용시키기 때문) */
+  position: relative;
+
+  /* size */
+  width: 100%;
+
+  /* slide drag를 위해 DOM요소가 드래그로 선택되는것을 방지 */
+  user-select: none;
+}
+
+.slide_item {
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* position - 버튼 클릭시 left offset값을 적용시키기 위해 */
+  position: relative;
+  left: 0px;
+
+  /* size */
+  width: 100%;
+  height: 300px;
+  /* flex item의 flex-shrink는 기본값이 1이므로 컨테이너 크기에 맞게 줄어드는데, 슬라이드를 구현할 것이므로 줄어들지 않도록 0을 준다. */
+  flex-shrink: 0;
+
+  /* transition */
+  transition: left 0.15s;
+}
+
+.slide_button {
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* position */
+  position: absolute;
+  /* 버튼이 중앙에 위치하게 하기위해 계산 */
+  top: calc(50% - 16px);
+
+  /* size */
+  width: 32px;
+  height: 32px;
+
+  /* style */
+  border-radius: 100%;
+  background-color: #cccc;
+  cursor: pointer;
+}
+
+.slide_prev_button {
+  left: 10px;
+}
+
+.slide_next_button {
+  right: 10px;
+}
+
+/* 각 슬라이드가 변경되는 것을 시각적으로 확인하기 쉽도록 각 슬라이드별 색상 적용 */
+.slide_item.item1 {
+  background-color: darkgoldenrod;
+}
+
+.slide_item.item2 {
+  background-color: aqua;
+}
+
+.slide_item.item3 {
+  background-color: blueviolet;
+}
+
+.slide_item.item4 {
+  background-color: burlywood;
+}
+
+.slide_item.item5 {
+  background-color: cornflowerblue;
+}
+
+.어허 {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+/* 페이지네이션 스타일 */
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slide_pagination {
+  /* layout */
+  display: flex;
+  gap: 5px;
+
+  /* position */
+  position: absolute;
+  bottom: 0;
+  /* left:50%, translateX(-50%)를 하면 가로 가운데로 위치시킬 수 있다. */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide_pagination > li {
+  /* 현재 슬라이드가 아닌 것은 투명도 부여 */
+  color: #7fb5ff88;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.slide_pagination > li.active {
+  /* 현재 슬라이드 색상은 투명도 없이 */
+  color: #7fb5ff;
+}
+
+.slide_item_duplicate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 300px;
+  flex-shrink: 0;
+  transition: left 0.15s;
+}
+
+/* ------------------------------------------------------ */

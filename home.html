@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="window">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="home.html">홈</a>
+          <a href="map1.html">상세 운영 지도</a>
+          <a href="을랑모이스토어.html">이벤트</a>
+          <div class="menulogo" style="margin-top: 58px">
+            Made By Code Maker
+          </div>
+          <img class="menueulji" src="./을지대로고흰.png" />
+        </div>
+        <div class="header">
+          <img
+            src="./을지로고.png"
+            style="
+              left: 15px;
+              top: 60px;
+              width: 50px;
+              height: 50px;
+              position: absolute;
+            "
+            onclick="location.href='home.html'"
+          />
+          <img
+            src="./을랑모이.png"
+            style="
+              width: 71px;
+              height: 53px;
+              flex-shrink: 0;
+              margin-top: 60px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 15px;
+            "
+            onclick="location.href='home.html'"
+          />
+          <img
+            src="./메뉴바.png"
+            id="mySidenav"
+            onclick="openNav()"
+            style="
+              width: 28px;
+              height: 28px;
+              bottom: 20px;
+              right: 15px;
+              position: absolute;
+            "
+          />
+        </div>
+        <div class="hometext" style="margin-top: 20px; margin-left: 18px">
+          축제 라인업🎉
+        </div>
+
+        <div class="전체 div">
+          <div class="slide slide_wrap">
+            <div class="slide_item item1">
+              <img src="서동현.png" class="어허" />
+            </div>
+            <div class="slide_item item2">
+              <img src="로이킴.png" class="어허" />
+            </div>
+            <div class="slide_item item3">
+              <img src="우디 고차일드.png" class="어허" />
+            </div>
+            <div class="slide_item item4">
+              <img src="찬현.png" class="어허" />
+            </div>
+            <div class="slide_item item5">
+              <img src="MC훈.png" class="어허" />
+            </div>
+            <ul class="slide_pagination"></ul>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="./상세운영지도 화살표.png"
+            class="상세운영지도"
+            onclick="location.href='map1.html'"
+          />
+          <img src="./4.png" class="box-inner" />
+        </div>
+        <img
+          src="./이벤트 화살표.png"
+          class="이벤트"
+          onclick="location.href='을랑모이스토어.html'"
+        />
+        <img src="./5.png" class="box-inner2" />
+        <div class="logo" style="margin-top: 70px">Made by Code Maker</div>
+      </div>
+    </div>
+    <script src="./slide.js"></script>
+    <script src="./menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,396 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 390px;
+  height: 1561px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+* {
+  font-family: Pretendard, "Noto Sans KR", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+  background: #ffa6a6;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.을지대로고흰 {
+  left: 15px;
+  top: 60px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.제목 {
+  width: 189px;
+  height: 33px;
+  display: flex;
+  justify-content: center; /*세로 기준 가운데 정렬, flex가 있어야 사용가능*/
+  position: relative;
+  top: 73px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.메뉴버튼 {
+  width: 28px;
+  height: 28px;
+  bottom: 20px;
+  right: 15px;
+  position: absolute;
+}
+
+.야식당페이지 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.카테고리 {
+  width: 317px;
+  height: 80px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.야식당 {
+  left: 39px;
+  width: 55px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.푸드트럭 {
+  left: 107px;
+  width: 157px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.지역부스 {
+  left: 0px;
+  bottom: 0px;
+  width: 65px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.학생부스 {
+  left: 74px;
+  bottom: 0px;
+  width: 65px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.본부 {
+  left: 148px;
+  bottom: 0px;
+  width: 95px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.플리마켓 {
+  right: 0px;
+  bottom: 0px;
+  width: 65px;
+  height: 33px;
+  border-radius: 100px;
+  border: 0.8px solid #ffa6a6;
+  background: #fff;
+  position: absolute;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#선택 {
+  background: #ffa6a6;
+  color: #fff;
+}
+
+.야식당지도 {
+  width: 320px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.야식당리스트 {
+  width: 330px;
+  height: 208px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.푸드트럭지도 {
+  width: 328px;
+  height: 137px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.푸드트럭리스트 {
+  width: 330px;
+  height: 413px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.지역지도 {
+  width: 320px;
+  height: 153px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.지역리스트 {
+  width: 330px;
+  height: 317px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.학생지도 {
+  width: 337px;
+  height: 205px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.학생리스트 {
+  width: 330px;
+  height: 177px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.본부지도 {
+  width: 320px;
+  height: 170px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.본부리스트 {
+  width: 330px;
+  height: 388px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.플리지도 {
+  width: 320px;
+  height: 292px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.플리리스트 {
+  width: 330px;
+  height: 307px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.menulogo {
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left:auto;
+  right:24px;
+  top: 235px;
+  position:absolute;
+}
+
+.menueulji {
+  left: 21px;
+  bottom: 10% ;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+
+  /* The side navigation menu */
+.sidenav {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+right: 0;
+background: linear-gradient(89deg, rgba(255, 166, 166, 0.00) 0%, rgba(255, 166, 166, 0.50) 0%, #FFA6A6 0%); /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+padding: 8px 8px 0px 32px;
+text-decoration: none;
+font-family: Pretendard;
+font-size: 20px;
+color: #FFF;
+display: block;
+transition: 0.3s;
+margin-top:25px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+transition: margin-left .5s;
+margin-top:32px;
+padding: 20px;
+left:32px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
